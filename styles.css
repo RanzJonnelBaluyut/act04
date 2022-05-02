@@ -59,16 +59,6 @@ footer{
      color:#3F72AF;
  }
 
- /* iPhone SE */
- @media(max-width: 375px){
-    .main-page{
-        width: 70%;
-        margin-top: 20px;
-        padding: 30px;
-        font-size: 20px;
-    }
- }
-
   /* iPhone XR */
   @media(max-width: 414px){
     .main-page{
@@ -76,6 +66,11 @@ footer{
         margin-top: 25px;
         padding: 30px;
         font-size: 20px;
+    }
+
+    
+    footer, .header{
+        padding: 5px;
     }
  }
 
@@ -86,5 +81,10 @@ footer{
         margin-top: 25px;
         padding: 30px;
         font-size: 20px;
+    }
+
+    
+    footer, .header{
+        padding: 5px;
     }
  }
